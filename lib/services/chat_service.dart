@@ -14,18 +14,14 @@ class ChatService {
   }) async {
     final url = Uri.parse(_baseUrl);
 
-    // ======================================================================
-    // İŞTE BÜYÜK SIR: GİZLİ KARAKTER (SYSTEM PROMPT)
-    // ======================================================================
     final List<Map<String, dynamic>> finalMessages = [
       {
         "role": "system",
         "content":
-            "Senin adın AnlAI. Beyza tarafından geliştirilmiş çok zeki, kibar ve profesyonel bir yapay zeka asistanısın. Kullanıcıya her zaman yardım etmeye hazırsın. Cevapların sesli (TTS) olarak da okunacağı için asla çok uzun destanlar yazma. Mümkün olduğunca kısa, net, samimi ve akıcı bir Türkçe kullan. Kod veya teknik analiz istendiğinde doğrudan konuya gir ve gereksiz laf kalabalığı yapma.",
+            "Senin adın A.R.I.A. Beyza tarafından geliştirilmiş çok zeki, kibar ve profesyonel bir yapay zeka asistanısın. Kullanıcıya her zaman yardım etmeye hazırsın. Cevapların sesli (TTS) olarak da okunacağı için asla çok uzun destanlar yazma. Mümkün olduğunca kısa, net, samimi ve akıcı bir Türkçe kullan. Kod veya teknik analiz istendiğinde doğrudan konuya gir ve gereksiz laf kalabalığı yapma.",
       },
-      ...messages, // Senin yazdıkların bu gizli emrin hemen arkasına ekleniyor
+      ...messages,
     ];
-    // ======================================================================
 
     final String modelToUse = hasImage
         ? "meta-llama/llama-4-scout-17b-16e-instruct"
@@ -33,7 +29,7 @@ class ChatService {
 
     final body = json.encode({
       "model": modelToUse,
-      "messages": finalMessages, // Artık API'ye kimlik kartımızla gidiyoruz!
+      "messages": finalMessages,
       if (hasImage) "max_tokens": 1024,
     });
 
