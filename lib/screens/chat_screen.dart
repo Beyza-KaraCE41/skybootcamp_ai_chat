@@ -319,7 +319,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'AnlAI',
+                      'A.R.I.A.',
                       style: GoogleFonts.nunito(
                         fontSize: 19,
                         fontWeight: FontWeight.w800,
@@ -523,7 +523,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         const SizedBox(width: 8),
                       ],
                       Text(
-                        isUser ? 'Sen' : 'AnlAI',
+                        isUser ? 'Sen' : 'A.R.I.A.',
                         style: GoogleFonts.nunito(
                           fontSize: 13,
                           fontWeight: FontWeight.w700,
