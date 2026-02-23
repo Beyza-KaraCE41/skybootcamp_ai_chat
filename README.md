@@ -16,25 +16,25 @@ A.R.I.A., benim geliştirdiğim Flutter tabanlı bir yapay zeka sohbet asistanı
 
 ---
 
-## Ekran Görüntüleri
+## Ekran Görselleri
 
 ### Hoş Geldin Ekranı
-![Welcome](docs/screenshots/1-welcome.png)
+![Welcome](docs/screenshots/1.png)
 
 ### Chat Arayüzü
-![Chat](docs/screenshots/2-chat.png)
+![Chat](docs/screenshots/2.png)
 
 ### Resim Analizi
-![Image Analysis](docs/screenshots/3-image.png)
+![Image Analysis](docs/screenshots/3.png)
 
 ### İçerik Menüsü
-![Context Menu](docs/screenshots/4-menu.png)
+![Context Menu](docs/screenshots/4.png)
 
 ### Sesli Dinle
-![Audio](docs/screenshots/5-audio.png)
+![Audio](docs/screenshots/5.png)
 
 ### Not Defteri
-![Notes](docs/screenshots/6-notes.png)
+![Notes](docs/screenshots/6.png)
 
 ---
 
@@ -184,6 +184,7 @@ Ayarlardan uygulamaya mikrofon ve hoparlör izni verin.
 ### Resim seçilemiyor
 
 Galeri izninizi kontrol edin.
+
 
 ---
 
