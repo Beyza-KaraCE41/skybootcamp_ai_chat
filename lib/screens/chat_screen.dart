@@ -3,13 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:ui';
 import 'dart:convert';
-import 'dart:typed_data';
 import 'package:lottie/lottie.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:speech_to_text/speech_to_text.dart'
-    as stt; // YENİ: Kulak (Dinleme)
-import 'package:flutter_tts/flutter_tts.dart'; // YENİ: Ağız (Konuşma)
+import 'package:speech_to_text/speech_to_text.dart' as stt;
+import 'package:flutter_tts/flutter_tts.dart';
 import '../services/chat_service.dart';
 import '../models/chat_message.dart';
 
@@ -181,9 +179,6 @@ class _ChatScreenState extends State<ChatScreen> {
       setState(() {
         _messages.add(ChatMessage(role: 'assistant', content: response));
       });
-
-      // İsteğe bağlı: Cevap gelince otomatik okusun istersen alttaki yorumu kaldır
-      // _speak(response);
     } catch (e) {
       setState(() {
         _messages.add(
@@ -874,7 +869,7 @@ class _ChatScreenState extends State<ChatScreen> {
                               ),
                             ),
                           ),
-                          // YENİ: MİKROFON BUTONU
+                          // MİKROFON BUTONU
                           IconButton(
                             onPressed: _listen,
                             icon: Icon(
