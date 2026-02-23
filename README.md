@@ -19,22 +19,22 @@ A.R.I.A., benim geliştirdiğim Flutter tabanlı bir yapay zeka sohbet asistanı
 ## Ekran Görüntüleri
 
 ### Hoş Geldin Ekranı
-![Welcome](https://raw.githubusercontent.com/your-username/ARIA-ChatApp/main/docs/screenshots/1-welcome.png)
+![Welcome](https://raw.githubusercontent.com/Beyza-KaraCE41/skybootcamp_ai_chat/main/docs/screenshots/1-welcome.png)
 
 ### Chat Arayüzü
-![Chat](https://raw.githubusercontent.com/your-username/ARIA-ChatApp/main/docs/screenshots/2-chat.png)
+![Chat](https://raw.githubusercontent.com/Beyza-KaraCE41/skybootcamp_ai_chat/main/docs/screenshots/2-chat.png)
 
 ### Resim Analizi
-![Image Analysis](https://raw.githubusercontent.com/your-username/ARIA-ChatApp/main/docs/screenshots/3-image.png)
+![Image Analysis](https://raw.githubusercontent.com/Beyza-KaraCE41/skybootcamp_ai_chat/main/docs/screenshots/3-image.png)
 
 ### İçerik Menüsü
-![Context Menu](https://raw.githubusercontent.com/your-username/ARIA-ChatApp/main/docs/screenshots/4-menu.png)
+![Context Menu](https://raw.githubusercontent.com/Beyza-KaraCE41/skybootcamp_ai_chat/main/docs/screenshots/4-menu.png)
 
 ### Sesli Dinle
-![Audio](https://raw.githubusercontent.com/your-username/ARIA-ChatApp/main/docs/screenshots/5-audio.png)
+![Audio](https://raw.githubusercontent.com/Beyza-KaraCE41/skybootcamp_ai_chat/main/docs/screenshots/5-audio.png)
 
 ### Not Defteri
-![Notes](https://raw.githubusercontent.com/your-username/ARIA-ChatApp/main/docs/screenshots/6-notes.png)
+![Notes](https://raw.githubusercontent.com/Beyza-KaraCE41/skybootcamp_ai_chat/main/docs/screenshots/6-notes.png)
 
 ---
 
@@ -186,7 +186,6 @@ Ayarlardan uygulamaya mikrofon ve hoparlör izni verin.
 Galeri izninizi kontrol edin.
 
 ---
-
 
 ## İletişim
 
