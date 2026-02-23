@@ -14,8 +14,7 @@ class ChatMessage {
 
   Map<String, dynamic> toJson() {
     if (base64Image != null) {
-      // İŞTE YENİ DETEKTİFİMİZ: Resmin formatını şifresinden otomatik anlıyor!
-      String mimeType = 'image/jpeg'; // Varsayılan format
+      String mimeType = 'image/jpeg';
 
       if (base64Image!.startsWith('iVBORw0')) {
         mimeType = 'image/png';
